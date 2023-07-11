@@ -215,3 +215,31 @@ input {
   padding: 22px;
   margin: 0px 0px 120px 200px;
 }
+
+/* footer styles */
+footer {
+  background: #111010;
+}
+.footer-title {
+  padding: 90px 500px 5px 500px;
+  margin-top: 120px;
+  color: white;
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.footer-desc {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.footer-end {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  padding-bottom: 130px;
+}
