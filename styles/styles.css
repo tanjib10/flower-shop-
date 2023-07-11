@@ -118,3 +118,67 @@ main {
   color: white;
   margin-left: 220px;
 }
+
+/*New arrivals styles */
+.new-arrival-title {
+  margin-top: 100px;
+  text-align: center;
+}
+.container-arrivals {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Order-btn {
+  padding: 15px 25px;
+  border-radius: 8px;
+  background: #674f54;
+  border: none;
+  color: white;
+  margin-left: 26%;
+}
+
+/*About us related styles */
+.about-section {
+  margin-top: 130px;
+}
+.about-title {
+  margin: 0px 40px 30px 40px;
+  background: #f5e4e7;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.about-design {
+  margin-right: 5px;
+  color: #ec2b9b;
+  font-size: 30px;
+}
+.about-container {
+  display: flex;
+  justify-content: start;
+}
+.about-img {
+  width: 550px;
+  margin: 0px 40px 0px 40px;
+}
+.about-desc,
+li {
+  color: rgba(39, 39, 39, 0.6);
+  padding-left: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+}
+.about-button {
+  padding: 15px 25px;
+  border-radius: 8px;
+  background: #151515;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
