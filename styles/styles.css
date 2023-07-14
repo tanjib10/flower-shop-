@@ -243,3 +243,63 @@ footer {
   font-weight: 300;
   padding-bottom: 130px;
 }
+
+/* resposive styles */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .header-img {
+    margin-top: 30px;
+    margin-left: 77px;
+    width: 64%;
+  }
+  .section-desc {
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .container-featured {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .offer-sale-container {
+    padding: 10px;
+  }
+  .offer-sale-section {
+    flex-direction: column;
+  }
+  .offer-sale-section-title {
+    font-size: 22px;
+  }
+  .offer-sale-section-desc {
+    margin-top: 10px;
+  }
+  .sign-up-btn {
+    margin-left: 130px;
+  }
+  .container-arrivals {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .Order-btn {
+    margin-left: 30%;
+    margin-bottom: 10px;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 80%;
+  }
+  .latest-deals {
+    margin: 10px;
+  }
+  input {
+    margin: 5px;
+    width: auto;
+  }
+  .footer-title {
+    padding: 5px;
+  }
+}
